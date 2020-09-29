@@ -135,7 +135,7 @@ Belarus called the "lungs of Europe" (36% of the territory of our state - forest
 
       <p>Assigned to the future, tomorrow English class.</p>
 
-      <p>For my beloved teacher, Alina Galinskaya ♥♥♥</p>
+      <p>For my beloved teacher, <strong data-toggle="tooltip" data-placement="right" title="♥♥♥">Alina Galinskaya</strong></p>
 
       <p>
         <button class="btn btn-primary">
@@ -147,5 +147,10 @@ Belarus called the "lungs of Europe" (36% of the territory of our state - forest
       <script src="./jquery.min.js"></script>
       <script src="./popper.min.js"></script>
       <script src="./bootstrap.min.js"></script>
+      <script>
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+      </script>
   </body>
 </html>
